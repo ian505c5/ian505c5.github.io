@@ -7,14 +7,22 @@
 }
 
 html {
-  background: $white;
+  background: $body_color;
 }
 
 body{
-  @include serif;
   color: $text_color;
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.5;
+}
+
+p, ul {
+	margin: 0;
+}
+
+ul {
+	padding-left: 20px;
 }
 
 .wrapper:before,
